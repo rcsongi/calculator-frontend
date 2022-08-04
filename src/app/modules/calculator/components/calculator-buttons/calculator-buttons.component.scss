@@ -1,0 +1,11 @@
+:host {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .calculator-button {
+        flex: 0 0 22%;
+        margin: 5px 0;
+    }
+}

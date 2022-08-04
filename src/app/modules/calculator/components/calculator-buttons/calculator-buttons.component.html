@@ -1,0 +1,8 @@
+<button
+  mat-flat-button
+  *ngFor="let button of buttons"
+  class="calculator-button"
+  (click)="buttonClicked(button.value)"
+>
+  {{ button.display }}
+</button>
